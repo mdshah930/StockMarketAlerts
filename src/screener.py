@@ -155,9 +155,9 @@ def screen_nifty50(
 
             print(
                 f"{symbol}: "
-                f"recent Friday={result['recent_friday_close']:.2f}, "
-                f"previous Friday={result['previous_friday_close']:.2f}, "
-                f"last month RSI={result['last_month_rsi']:.2f}, "
+                f"recent Friday={result['recent_friday_close']:.3f}, "
+                f"previous Friday={result['previous_friday_close']:.3f}, "
+                f"last month RSI={result['last_month_rsi']:.3f}, "
                 f"shortlisted={price_condition and rsi_condition}"
             )
 
